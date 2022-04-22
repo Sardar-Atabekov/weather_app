@@ -1,0 +1,28 @@
+.weather {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.main-info {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.weather-img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.weather-temp {
+    font-size: 40px;
+    line-height: 59px;
+    letter-spacing: .01em;
+}
+
+.city-block {
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+}
