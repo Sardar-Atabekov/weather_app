@@ -28,7 +28,6 @@ const Main = () => {
     console.log('data', data)
     return (
         <div className="app">
-
             <h1>Прогноз погоды на 5 дней</h1>
             <h2>{cityName}</h2>
             {
