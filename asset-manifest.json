@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.02d52e17.css",
+    "main.js": "/static/js/main.5c4b5b26.js",
+    "static/js/377.c1855308.chunk.js": "/static/js/377.c1855308.chunk.js",
+    "static/media/sunset.png": "/static/media/sunset.1edfb669adfa2c2bad3f.png",
+    "static/media/Montserrat-Medium.ttf": "/static/media/Montserrat-Medium.e2d60bc49517598c0ce8.ttf",
+    "static/media/dayClear.png": "/static/media/dayClear.f036ea5dac32d472822d.png",
+    "static/media/thunderstorm.png": "/static/media/thunderstorm.aa548cb5111bad903c3f.png",
+    "static/media/rainfall.png": "/static/media/rainfall.023cda563767c2a08654.png",
+    "static/media/smallRainDay.png": "/static/media/smallRainDay.7934195f52b3ce5e0fc9.png",
+    "static/media/cloudy.png": "/static/media/cloudy.c82794ad3049f96359ca.png",
+    "static/media/smallCloudy.png": "/static/media/smallCloudy.2cc0d836c8fac191b8c3.png",
+    "static/media/snow.png": "/static/media/snow.e487a0c56c890ad3b84e.png",
+    "index.html": "/index.html",
+    "main.02d52e17.css.map": "/static/css/main.02d52e17.css.map",
+    "main.5c4b5b26.js.map": "/static/js/main.5c4b5b26.js.map",
+    "377.c1855308.chunk.js.map": "/static/js/377.c1855308.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.02d52e17.css",
+    "static/js/main.5c4b5b26.js"
+  ]
+}
