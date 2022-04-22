@@ -1,17 +1,10 @@
 .app {
   color: aliceblue;
-  margin: 10% auto;
+  margin: 50px auto;
   text-align: center;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   text-align: center;
   width: 560px;
-  border: 2px solid white;
-  box-shadow: 0 5px 27px 1px rgb(0 0 0 / 20%);
-  border-radius: 15px;
-  padding: 26px 38px;
-  transition: .5s;
-  position: relative;
-  margin-bottom: 50px;
 }

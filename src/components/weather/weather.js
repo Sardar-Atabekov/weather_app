@@ -17,7 +17,7 @@ import snow from './../../img/icon/snow.png';
 // import clearDay from './../../img/day.svg';
 import clearDay from './../../img/icon/dayClear.png';
 
-const Weather = ({ data }) => {
+const Weather = ({ data, cityName }) => {
     let { weather } = data;
     let img;
     if (weather[0].main == "Clouds" && weather[0].icon == "04d") {
@@ -54,6 +54,9 @@ const Weather = ({ data }) => {
         }
     }
     console.log('data', data);
+
+    const ms = data.dt * 1000;
+    const weekdayName = new Date(ms).toLocaleString('ru', { weekday: 'long' });
     return (
         <div className='weather'>
             <div className='more-info'>
@@ -65,8 +68,8 @@ const Weather = ({ data }) => {
                 </div>
             </div>
             <div className='city-block'>
-                <span>{data.name}</span>
-                <span>21:00</span>
+                {/* <span>{cityName}</span> */}
+                <span>{weekdayName}</span>
                 <span>{weather[0].description}</span>
             </div>
         </div>
